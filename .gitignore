@@ -1,0 +1,68 @@
+# ==========================================
+# PyTorch Specific (Weights, Data, & Logs)
+# ==========================================
+# Large Model checkpoints / saved weights
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.h5
+
+# Downloaded Datasets (Create a /data folder in your root)
+data/
+datasets/
+
+# TensorBoard logs & MLflow/Weights & Biases runs
+runs/
+mlruns/
+wandb/
+lightning_logs/
+
+# ==========================================
+# Standard Python & Byte-code
+# ==========================================
+__pycache__/
+*.py[cod]
+*\$py.class
+*.so
+
+# Distribution / Packaging / Builds
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Environments & Jupyter Notebooks
+# ==========================================
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# IDEs & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
